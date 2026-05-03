@@ -29,6 +29,7 @@ body{
     font-family: var(--title-font);
     font-size: 3rem;
     color: var(--primary-color);
+    text-shadow: 0 4px 8px rgba(0,0,0,0.8);
 }
 .subtitle {
     margin-top:10px;
