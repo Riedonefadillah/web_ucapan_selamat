@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Ucapan Semangat</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<audio id="bg-music" loop>
+			<source  src="musik.mp3" type="audio/mpeg" />
+		</audio>
+
+		<main class="container">
+			<header class="hero">
+				<h1 class="title">Untuk Wanita Hebat yang Sedang Berjuang</h1>
+				<p class="subtitle">Kamu adalah inspirasi bagi banyak orang</p>
+			</header>
+
+			<section class="content">
+				<div class="message-card glass">
+					<p class="pesan">
+						tetap semangat yaaa, kamu sudah begitu hebat melewati rintangan yang
+						begitu banyak dan berat,bahkan tak seorang pun bisa seperti dirimu,
+						karena apa yang kamu lalui itu adalah hasil kerja keras yang tak
+						bisa tergantikan, bahkan mungkin dengan melalui banyak hal itu ,kamu
+						telah sangat disayang oleh Allah, terus lah berjuang karena kamu
+						adalah wanita terhebat yang pernah ada.
+					</p>
+
+					<button
+						id="showMessage"
+						class="btn-primary">
+						Ada Pesan Khusus
+					</button>
+				</div>
+
+				<div class="gallery-wrapper">
+					<div class="foto">
+						<img
+							src="images/eka.jpg"
+							alt="eka"
+							id="fotoKecil" />
+					</div>
+				</div>
+			</section>
+
+			<div
+				class="popup-overlay"
+				id="popupFoto">
+				<div class="popup-content">
+					<button
+						id="closeFoto"
+						class="btn-secondary">
+						&times;
+					</button>
+					<img
+						id="fotoBesar"
+						src="images/eka.jpg"
+						alt="eka" />
+				</div>
+			</div>
+
+			<div
+				class="popup-message glass"
+				id="popupMessage">
+				<h2>Kata - kata Motivasi</h2>
+				<p>
+					“Orang kuat bukan yang tidak pernah lelah, tapi yang tetap berjalan
+					walaupun lelah. Kalau kamu masih bertahan sampai hari ini, berarti
+					kamu sudah lebih kuat dari yang kamu kira.”
+				</p>
+				<button
+					id="closePopup"
+					class="btn-secondary">
+					&times;
+				</button>
+			</div>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
