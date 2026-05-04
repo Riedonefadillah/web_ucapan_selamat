@@ -4,7 +4,7 @@ const fotoClose = document.getElementById('closeFoto');
 fotoKecil.addEventListener('click', () => {
     popupFoto.classList.add('active');
 
-    for(let i = 0; i < 10; i++){
+    for(let i = 0; i < 100; i++){
         let love = document.createElement('div');
         love.classList.add('love');
         love.innerHTML = '❤️';
@@ -33,9 +33,11 @@ const closeBtn = document.getElementById('closePopup');
 
 btn.addEventListener('click', () =>{
     popupMessage.classList.add('active');
+    btn.style.backgroundColor = '#0d47a1';
 })
 closeBtn.addEventListener('click', ()=>{
     popupMessage.classList.remove('active');
+    btn.style.backgroundColor = '#5DF8D8';
 })
 
 const audio = document.getElementById('bg-music');

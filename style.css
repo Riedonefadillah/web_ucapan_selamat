@@ -29,6 +29,7 @@ body{
     font-family: var(--title-font);
     font-size: 3rem;
     color: var(--primary-color);
+    text-shadow:0 5px 1px rgba(0,0,0,0.9);
 }
 .subtitle {
     margin-top:10px;
@@ -42,10 +43,12 @@ body{
 }
 .foto img{
     width: 150px;
+    height: 200px;
     border-radius: 15px;
     margin-top: 20px;
     cursor: pointer;
     transition: 0.3s;
+    
 }
 .foto img:hover{
     transform: scale(1.05);
@@ -53,7 +56,8 @@ body{
 .message-card{
     background: rgba(255,255,255,0.6);
     backdrop-filter: blur(10px);
-    padding: 2.5rem;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     border-radius: 15px;
     margin-top: 25px;
 }
@@ -146,12 +150,15 @@ body{
 
 #closeFoto{
     position: absolute;
-    top: 30px;
-    right: 40px;
+    top: 10px;
+    right: 10px;
     background: none;
     border: none;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     cursor: pointer;
     transition: color 0.3s ease;
     z-index: 1001;
@@ -179,6 +186,7 @@ body{
     }
 
     .pesan {
+        text-align: justify;
         font-size: 1rem;
         line-height: 1.5;
     }
@@ -190,6 +198,7 @@ body{
     .message-card {
         padding: 1.5rem;
     }
+    
 
     .btn-primary, .btn-secondary {
         width: 100%;
@@ -203,9 +212,11 @@ body{
 
     /* tombol close */
     #closeFoto {
-        top: 10px;
-        right: 15px;
-        font-size: 2rem;
+       top: 5px;
+        right: 5px;
+        font-size: 1.5rem;
+        width: 35px;
+        height: 35px;
     }
 
     /* popup pesan */
