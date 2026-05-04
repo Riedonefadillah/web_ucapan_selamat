@@ -29,7 +29,11 @@ body{
     font-family: var(--title-font);
     font-size: 3rem;
     color: var(--primary-color);
+<<<<<<< HEAD
     text-shadow:0 5px 1px rgba(0,0,0,0.9);
+=======
+    text-shadow: 0 4px 8px rgba(0,0,0,0.8);
+>>>>>>> 163aeecfa8610fc5e3c5d8433ee352ec68f42566
 }
 .subtitle {
     margin-top:10px;
@@ -37,6 +41,7 @@ body{
 }
 
 .pesan{
+    text-align:justify;    
     margin-top: 20px;
     font-size: 1.2rem;
     line-height: 1.6;
